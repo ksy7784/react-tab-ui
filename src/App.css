@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.modal {
+  background: #efefef;
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0, 0.25);
+}
+.tab_ui{
+  width: 300px;
+  background: #efefef;
+  padding: 20px;
+}
+.tab_ui .tab_group{
+  /*border:1px solid #ccc;*/
+  display: flex;
+}
+.tab_ui .tab_group a{
+  background: #ddd;
+  margin-right: 4px;
+  padding: 8px;
+  color: black;
+  border: 1px solid #ccc;
+}
+.tab_ui .tab_group a:hover{
+  background: orange ;
+}
+.tab_ui .tab_group a:focus{
+  color:grey;
+}
+.tab_contents{
+  border:2px solid orange;
+  padding: 1rem;
+}
+.tab_contents h1{
+  margin: 2px;
+}
+

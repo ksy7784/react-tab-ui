@@ -1,2 +1,7 @@
-# react-tab-ui
-탭 ui 변경
+# react-modal
+리액트로 만든 모달창
+
+## 주요내용
+- props 전달
+- useState로 상태관리
+
